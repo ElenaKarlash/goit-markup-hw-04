@@ -1,0 +1,230 @@
+
+section .work {
+
+        padding-bottom: 200px;
+        padding-top: 94px;
+
+    }
+
+.hero .container{
+
+    text-align: center;
+    height: 600px;
+    max-width: 1600px;
+    padding-top: 200px;
+    background-color: var(--background-gray);
+
+}
+
+
+.hero-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+ 
+    
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--white-text);
+
+}
+
+.hero-button {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--white-text);
+    background-color: var(--blue-text);
+
+}
+
+.hero section {
+
+padding-bottom: 200px;
+
+}
+
+.work .container {
+
+    display: flex;
+    margin: 0 auto;
+ /* padding-top: 94px;*/
+}
+
+.work-list {
+
+    display: flex;  
+ 
+}
+
+.work section {
+
+    padding-top: 94px;
+}
+
+.work-list-item {
+
+    width: 270px;
+
+}
+
+.work-list-item:not(:last-child) {
+
+    margin-right: 30px;
+
+}
+
+.work-list-title {
+ 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    color: var(--black-text);
+    
+
+}
+
+.work-list-deskription {
+  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: var(--gray-text-phone);
+
+}
+
+.mission {
+
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--white-text);
+
+}
+
+.mission-title {
+
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--black-text);
+
+}
+ .mission-list {
+
+    display: flex;
+
+ }
+
+ .mission-list-item:not(:last-child) {
+
+    margin-right: 30px;
+
+ }
+
+
+.team {
+
+    display: flex;
+    padding-top: 94px;
+    background-color: var(--background-section-four);
+   
+}
+
+.team section {
+
+padding-top: 94px;
+
+}
+
+.team-title {
+
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+
+    color: var(--black-text);
+   
+}
+
+.team-list {
+
+    display: flex;
+   
+}
+
+.team-list-item {
+
+    width: 270px;
+    background-color: var(--white-text);
+   
+}
+
+
+.team-list-item:not(:last-child) {
+
+    margin-right: 30px;
+
+}
+
+
+.team-name {
+    
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--black-text);
+
+}
+
+.team-name-position {
+
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+ 
+    color: var(--gray-text-phone);
+
+}
+
+.cards-description {
+
+    padding: 30px 59px;
+
+}
+
+.overlay {
+
+height: 640px;
+max-width: 1600px
+background-image: linear-gradient(
+    to right,
+rgba(47,48,58,0.4)
+rgba(47,48,58,0.4),
+),
+url("");
+margin-left: auto;
+margin-right: auto;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
