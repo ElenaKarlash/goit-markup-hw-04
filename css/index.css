@@ -213,13 +213,13 @@ padding-top: 94px;
 .overlay {
 
 height: 640px;
-max-width: 1600px
+max-width: 1600px;
 background-image: linear-gradient(
     to right,
 rgba(47,48,58,0.4)
 rgba(47,48,58,0.4),
 ),
-url("");
+url("../cards/img.jpg2");
 margin-left: auto;
 margin-right: auto;
 
