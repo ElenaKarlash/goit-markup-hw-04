@@ -13,7 +13,13 @@ section .work {
     max-width: 1600px;
     padding-top: 200px;
     background-color: var(--background-gray);
-
+    max-width: 1600px;
+    max-height: 600px;
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../cards/img.jpg2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -210,21 +216,139 @@ padding-top: 94px;
 
 }
 
-.overlay {
+.work-list-item:nth-child(1):before {
+    background-image: url(../cards/icons.svg/sprite.svg/icon-antenna);
+    background-size: 65px;
+}
 
-height: 640px;
-max-width: 1600px;
-background-image: linear-gradient(
-    to right,
-rgba(47,48,58,0.4)
-rgba(47,48,58,0.4),
-),
-url("../cards/img.jpg2");
-margin-left: auto;
-margin-right: auto;
+.work-list-item:nth-child(2):before {
+    background-image: url(../cards/icons.svg/sprite.svg/icon-clock);
+    background-size: 69px;
+}
 
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+.work-list-item:nth-child(3):before {
+    background-image: url(../);
+    background-size: 69px;
 
 }
+
+.work-list-item:nth-child(4):before {
+    background-image: url(../;
+    background-size: 69px;
+
+}
+
+.work-list-item::before {
+
+    display: block;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    background-color: var(--33, 33, 33, 1);
+
+}
+
+.team-icon {
+    margin-top: 16px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.media {
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    display: block;
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--gray-text-phone);
+    background-color: var(--white-text);
+    padding: 0;
+
+}
+
+.insta, .tw, .fb, .in {
+    fill: currentColor;
+}
+
+svg[Attributes Style] {
+    width: 20px;
+    height: 20px;
+}
+
+ svg:not(:root) {
+ 
+    overflow: hidden;
+}
+
+.costumers {
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.costumers-title {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+.costumers-list {
+
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.costumers-link {
+
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--gray-border);
+    border-radius: 4px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--gray-border);
+
+}
+
+.costumers-list li:not(:last-child) {
+
+    margin-right: 30px;
+
+}
+
+.costumers .container {
+
+margin: 0 auto;
+
+}
+

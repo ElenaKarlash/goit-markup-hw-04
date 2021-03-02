@@ -18,6 +18,7 @@ box-sizing: inherit;
     --background-section-four: rgba(245, 244, 250, 1);
     --footer-adress: rgba(255, 255, 255, 0.6);
     --mouse: rgba(0, 0, 0, 1);
+    --gray-border: rgba( 175,177,184,1);
 
       }
     
@@ -272,7 +273,7 @@ padding-bottom: 60px;
 
 }
 
- address f{
+ address {
 
     margin-top: 20px;
 
@@ -300,9 +301,28 @@ padding-bottom: 60px;
 
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+
+
+
+}
+
 
 .address-list-item:not(:last-child) {
 
     margin-bottom: 9px;
+
+}
+
+.icon-mail {
+
+    fill: var(--gray-text-phone);
+
+}
+
+.icon-phone {
+
+    fill: var(--gray-text-phone);
 
 }
