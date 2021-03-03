@@ -131,7 +131,7 @@ section .work {
 
 .work-list-item:nth-child(1):before {
 
-    background-image: url(../cards/icons.svg/sprite.svg/icon-antenna);
+    background-image: url(../cards/img/Vector1.svg);
     background-size: 65px;
 
 }
@@ -139,26 +139,23 @@ section .work {
 
 .work-list-item:nth-child(2):before {
 
-    background-image: url(../cards/icons.svg/Vector2.svg);
+    background-image: url(../cards/img/Vector2.svg);
     background-size: 69px;
 
 }
 
 .work-list-item:nth-child(3):before {
 
-    background-image: url(../);
+    background-image: url(../cards/img/Vector3.svg);
     background-size: 69px;
 
 }
 
 .work-list-item:nth-child(4):before {
-    background-image: url(../;
+    background-image: url(../cards/img/Vector4.svg);
     background-size: 69px;
 
 }
-
-
-
 
 
 .mission {
@@ -280,21 +277,25 @@ padding-top: 94px;
     }
 
 .team-icon {
-    margin-top: 16px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
 
-}
+        margin-top: 16px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
 
 .media {
+
     justify-content: space-between;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .social {
+
     display: block;
     display: flex;
     height: 44px;
@@ -311,13 +312,9 @@ padding-top: 94px;
 }
 
 .insta, .tw, .fb, .in {
+
     fill: currentColor;
-}
 
-
- svg:not(:root) {
- 
-    overflow: hidden;
 }
 
 .costumers {
@@ -373,7 +370,8 @@ padding-top: 94px;
 
 .costumers .container {
 
-margin: 0 auto;
+    margin: 0 auto;
 
 }
+
 
