@@ -51,7 +51,7 @@ section .work {
 
 .hero section {
 
-padding-bottom: 200px;
+    padding-bottom: 200px;
 
 }
 
@@ -65,23 +65,23 @@ padding-bottom: 200px;
 .work-list {
 
     display: flex;  
- 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
 }
+
 
 .work section {
 
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-list-item {
 
     width: 270px;
-
-}
-
-.work-list-item:not(:last-child) {
-
-    margin-right: 30px;
 
 }
 
@@ -92,6 +92,7 @@ padding-bottom: 200px;
     line-height: 1.15;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 30px;
 
     color: var(--black-text);
     
@@ -107,6 +108,58 @@ padding-bottom: 200px;
     color: var(--gray-text-phone);
 
 }
+
+.work-list-item:not(:last-child) {
+
+    margin-right: 30px;
+
+}
+
+.work-list-item::before {
+
+    content: "";
+    display: block;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    background-color: var(--background-section-four);
+    
+
+}
+
+.work-list-item:nth-child(1):before {
+
+    background-image: url(../cards/icons.svg/sprite.svg/icon-antenna);
+    background-size: 65px;
+
+}
+
+
+.work-list-item:nth-child(2):before {
+
+    background-image: url(../cards/icons.svg/Vector2.svg);
+    background-size: 69px;
+
+}
+
+.work-list-item:nth-child(3):before {
+
+    background-image: url(../);
+    background-size: 69px;
+
+}
+
+.work-list-item:nth-child(4):before {
+    background-image: url(../;
+    background-size: 69px;
+
+}
+
+
+
+
 
 .mission {
 
@@ -216,39 +269,15 @@ padding-top: 94px;
 
 }
 
-.work-list-item:nth-child(1):before {
-    background-image: url(../cards/icons.svg/sprite.svg/icon-antenna);
-    background-size: 65px;
-}
+ .container-list {
+        
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
 
-.work-list-item:nth-child(2):before {
-    background-image: url(../cards/icons.svg/sprite.svg/icon-clock);
-    background-size: 69px;
-}
-
-.work-list-item:nth-child(3):before {
-    background-image: url(../);
-    background-size: 69px;
-
-}
-
-.work-list-item:nth-child(4):before {
-    background-image: url(../;
-    background-size: 69px;
-
-}
-
-.work-list-item::before {
-
-    display: block;
-    height: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 4px;
-    background-color: var(--33, 33, 33, 1);
-
-}
+    }
 
 .team-icon {
     margin-top: 16px;
@@ -285,10 +314,6 @@ padding-top: 94px;
     fill: currentColor;
 }
 
-svg[Attributes Style] {
-    width: 20px;
-    height: 20px;
-}
 
  svg:not(:root) {
  

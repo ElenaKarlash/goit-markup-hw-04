@@ -326,3 +326,23 @@ padding-bottom: 60px;
     fill: var(--gray-text-phone);
 
 }
+
+.social-footer {
+
+    margin-left: 70px;
+
+}
+
+.social-footerlist {
+
+   
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+
+
