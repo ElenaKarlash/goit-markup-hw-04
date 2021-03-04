@@ -19,6 +19,7 @@ box-sizing: inherit;
     --footer-adress: rgba(255, 255, 255, 0.6);
     --mouse: rgba(0, 0, 0, 1);
     --gray-border: rgba( 175,177,184,1);
+    --social-grey: 255,255,255,0,1;
 
       }
     
@@ -199,6 +200,34 @@ button {
 
 }
 
+.icon-mail {
+
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+
+.icon-mail:hover {
+
+    fill: var(--blue-text);
+
+}
+
+.icon-phone {
+
+    margin-right: 10px;
+    fill: currentColor;
+
+}
+
+.icon-phone:hover {
+
+    fill: var(--blue-text);
+
+}
+
+
+
 .link-logo {
     
     display: inline-block;
@@ -227,6 +256,13 @@ button {
 .contacts .contacts-link:last-child{
 
     margin-left: 50px;
+
+}
+
+.contacts-link .mail {
+
+    display: flex;
+     align-items: center;
 
 }
 
@@ -268,8 +304,9 @@ button {
 
 .footer .container {
 
-padding-top: 60px;
-padding-bottom: 60px;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
@@ -301,13 +338,6 @@ padding-bottom: 60px;
 
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
-
-
-
-}
-
 
 .address-list-item:not(:last-child) {
 
@@ -315,13 +345,13 @@ padding-bottom: 60px;
 
 }
 
-.icon-mail {
+.icon-mail header {
 
     fill: var(--gray-text-phone);
 
 }
 
-.icon-phone {
+.icon-phone header{
 
     fill: var(--gray-text-phone);
 
@@ -343,5 +373,32 @@ padding-bottom: 60px;
 
     }
 
+.social-link {
+
+    display: inline-block;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill: var(--white-text);
+    background-color: var(--social-grey);
+   
+
+}
+
+.footer-title {
+
+    color: var(--white-text);
+
+}
 
 
+ .social-link:hover,
+ .social-link:focus {
+
+    border-radius: 50%;
+    background-color: var(--blue-text);
+
+ }
