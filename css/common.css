@@ -19,7 +19,8 @@ box-sizing: inherit;
     --footer-adress: rgba(255, 255, 255, 0.6);
     --mouse: rgba(0, 0, 0, 1);
     --gray-border: rgba( 175,177,184,1);
-    --social-grey: 255,255,255,0,1;
+    --social-grey:  rgba(255, 255, 255, 0.1);
+    --shadow-portfolio: 238,238,238,1;
 
       }
     
@@ -202,6 +203,10 @@ button {
 
 .icon-mail {
 
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
     margin-right: 10px;
     fill: currentColor;
 
@@ -248,7 +253,7 @@ button {
 .contacts {
 
     display: flex;
-    font-style: normal;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -347,6 +352,7 @@ button {
 
 .icon-mail header {
 
+
     fill: var(--gray-text-phone);
 
 }
@@ -359,19 +365,18 @@ button {
 
 .social-footer {
 
+   
     margin-left: 70px;
-
+ 
 }
 
 .social-footerlist {
 
    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
-
+    display: flex;
+   
     }
+    
 
 .social-link {
 
@@ -390,9 +395,12 @@ button {
 
 .footer-title {
 
+    margin-bottom: 20px;
     color: var(--white-text);
 
 }
+
+
 
 
  .social-link:hover,
