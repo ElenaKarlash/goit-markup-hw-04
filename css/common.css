@@ -203,10 +203,6 @@ button {
 
 .icon-mail {
 
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 12px;
     margin-right: 10px;
     fill: currentColor;
 
@@ -310,8 +306,10 @@ button {
 .footer .container {
 
     display: flex;
+  
     padding-top: 60px;
     padding-bottom: 60px;
+    align-items: baseline;
 
 }
 
@@ -365,20 +363,47 @@ button {
 
 .social-footer {
 
-   
+    
+    /*justify-content: center;
+    align-items: center;*/
     margin-left: 70px;
  
 }
 
 .social-footerlist {
 
-   
     display: flex;
-   
-    }
+
+}
     
 
-.social-link {
+
+
+.social-link:nth-last-child(1) {
+
+    margin-left: 10px;
+
+}
+
+.footer-title {
+
+    display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 20px;
+    color: var(--white-text);
+   
+}
+
+
+
+
+ 
+
+ .social-link {
 
     display: inline-block;
     display: flex;
@@ -393,17 +418,7 @@ button {
 
 }
 
-.footer-title {
-
-    margin-bottom: 20px;
-    color: var(--white-text);
-
-}
-
-
-
-
- .social-link:hover,
+.social-link:hover,
  .social-link:focus {
 
     border-radius: 50%;
