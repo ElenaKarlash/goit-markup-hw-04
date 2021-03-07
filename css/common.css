@@ -376,10 +376,7 @@ button {
 
 }
     
-
-
-
-.social-link:nth-last-child(1) {
+.social-link {
 
     margin-left: 10px;
 

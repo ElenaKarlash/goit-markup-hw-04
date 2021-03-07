@@ -59,14 +59,14 @@ padding-top: 94px;
    border-radius: 4px;
    border: 1px;
    cursor: pointer;
-   padding: 6px, 22px;
+   padding: 6px 22px;
 
 }
 
 .buttons-list-item button{
 
     background-color: var(--background-section-four);
-   border-radius: 4px;
+ 
 }
 
 

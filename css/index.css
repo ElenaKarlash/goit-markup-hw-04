@@ -335,62 +335,30 @@ section .work {
 
 .icon-instagram {
 
-    color: var(--gray-border);
-
-}
-
-.icon-instagram:hover {
- 
-fill: var(--white-text);
- background-color: var(--blue-text);
-
-
+    fill: currentColor;
 
 }
 
 .icon-tweeter {
 
-  fill: var(--gray-border);
+    fill: currentColor;
 
 }
 
-.icon-tweeter:hover {
-
-    fill: var(--white-text);
-
-}
 
 .icon-facebook {
 
-    fill: var(--gray-border);
+    fill: currentColor;
 
 }
 
-.icon-facebook:hover {
-
-    fill: var(--white-text);
-
-}
 
 .icon-linkedin {
 
-    fill: var(--gray-border);
+    fill: currentColor;
 
 }
 
-.icon-linkedin:hover {
-
-    fill: var(--white-text);
-
-}
-
-
-
-/*.instagram .twitter .facebook .linkedin {
-
-    fill: currentColor;*/
-
-}
 
 .costumers {
 
