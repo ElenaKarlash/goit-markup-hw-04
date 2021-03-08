@@ -6,14 +6,13 @@ section .work {
 
     }
 
-.hero .container{
+.hero .container {
 
     text-align: center;
     height: 600px;
     max-width: 1600px;
     padding-top: 200px;
     background-color: var(--background-gray);
-    max-width: 1600px;
     max-height: 600px;
     background-position: center;
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../cards/img.jpg2.jpg);*/
@@ -21,6 +20,7 @@ section .work {
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
@@ -58,13 +58,6 @@ section .work {
 
     padding-bottom: 200px;
 
-  /*  background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../cards/img.jpg2.jpg);
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;*/
-
-  
 }
 
 
@@ -72,7 +65,7 @@ section .work {
 
     display: flex;
     margin: 0 auto;
- /* padding-top: 94px;*/
+ 
 }
 
 .work-list {
@@ -90,6 +83,7 @@ section .work {
 
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .work-list-item {
@@ -109,7 +103,6 @@ section .work {
 
     color: var(--black-text);
     
-
 }
 
 .work-list-deskription {
@@ -165,6 +158,7 @@ section .work {
 }
 
 .work-list-item:nth-child(4):before {
+
     background-image: url(../cards/img/Vector4.svg);
     background-size: 70px;
 
@@ -231,7 +225,6 @@ section .work {
 
 .team-list {
 
-  
     display: flex;
     padding-left: 0;
     padding-right: 0;
@@ -287,11 +280,11 @@ section .work {
 
  .container-list {
         
-        display: flex;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
+     display: flex;
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-left: 0;
+     padding-right: 0;
 
  }
 
